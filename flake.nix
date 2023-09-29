@@ -14,8 +14,8 @@
       {
         devShells.default = mkShell {
           buildInputs = [
-            elixir
-            erlang
+            {{ elixir_version }}
+            {{ erlang_version }}
             rebar3
           ];
         };
